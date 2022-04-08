@@ -1,38 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+body,
+html {
+  height: 100%;
+  background-image: url(./components/Mataura.png);
+  background-position: center;
+  background-size: cover;
+}
+
 .App {
+  font-family: "Poppins";
+}
+
+.wrapper {
+  margin-left: 120px;
+}
+.wrapper h1 {
   text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  font-weight: 900;
+}
+.table {
+  text-align: center;
+  width: 50%;
+  font: bold;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div.nav {
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a.nav-link {
+  color: black;
+}
+
+a.nav-link:hover {
+  color: hotpink;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  height: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.menu-bar {
+  list-style-type: none;
+}
+.menu-bar a {
+  font-size: 15px;
+  color: black;
+  font-weight: 800;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Button {
+  margin-top: 2rem;
 }
